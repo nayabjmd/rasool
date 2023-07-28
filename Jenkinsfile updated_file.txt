@@ -14,7 +14,7 @@ pipeline {
         stage('code') {
             steps {
                 git url: 'https://github.com/nayabjmd/rasool.git',
-                    branch: 'master'
+                    branch: 'rasool'
             }
         }
         stage('package') {
