@@ -8,7 +8,7 @@ pipeline {
         pollSCM('* * * * *')
     }
     tools {
-        jdk 'Jdk-8'
+        jdk 'jdk-8'
     }
     stages {
         stage('code') {
